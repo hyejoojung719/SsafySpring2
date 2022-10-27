@@ -1,0 +1,13 @@
+package com.ssafy.webex;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.ssafy.webex.model.mapper.WorldMapper;
+
+@Controller
+public class TestController {
+	
+	@Autowired
+	WorldMapper worldMapper;
+}

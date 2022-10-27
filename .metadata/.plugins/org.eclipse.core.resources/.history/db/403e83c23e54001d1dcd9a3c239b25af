@@ -1,0 +1,26 @@
+package com.ssafy.car.model.service;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.ssafy.car.model.CarDto;
+
+@Service
+public class CarServiceImpl implements CarService{
+
+	@Override
+	public void regist(CarDto car) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<CarDto> selectAll() throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

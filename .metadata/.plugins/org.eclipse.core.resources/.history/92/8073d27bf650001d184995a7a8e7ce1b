@@ -1,0 +1,10 @@
+package com.ssafy.mvc.model.mapper;
+
+import java.sql.SQLException;
+import java.util.HashMap;
+
+public interface UserMapper {
+
+	boolean selectUser(HashMap<String, String > map) throws SQLException;
+	
+}

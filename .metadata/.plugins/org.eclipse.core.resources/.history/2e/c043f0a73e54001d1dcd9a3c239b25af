@@ -1,0 +1,5 @@
+package com.ssafy.car.model.service;
+
+public interface CarService {
+
+}

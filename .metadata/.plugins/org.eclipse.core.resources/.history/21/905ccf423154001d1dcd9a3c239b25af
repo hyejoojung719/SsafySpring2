@@ -1,0 +1,17 @@
+package com.ssafy.member.model.service;
+
+import java.sql.SQLException;
+
+import org.springframework.stereotype.Service;
+
+import com.ssafy.member.model.MemberDto;
+
+@Service
+public class MemberServiceImpl implements MemberService{
+
+	@Override
+	public void join(MemberDto member) throws SQLException {
+		
+	}
+
+}

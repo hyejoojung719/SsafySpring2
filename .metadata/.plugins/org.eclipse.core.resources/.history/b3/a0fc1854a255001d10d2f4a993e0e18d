@@ -1,0 +1,34 @@
+package com.ssafy.admin.controller;
+
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.ssafy.member.model.MemberDto;
+import com.ssafy.member.model.service.MemberService;
+
+@Controller
+@RequestMapping("/admin")
+public class AdminUserController {
+
+	private MemberService memberService;
+	
+	public AdminUserController(MemberService memberService) {
+		super();
+		this.memberService = memberService;
+	}
+	
+	public String list() {
+		try {
+			List<MemberDto> list = memberService.listMember(null);
+			/*
+			 * list를 갖고 json으로 보내야함
+			 * json object와 json arrray 만들기
+			 * */
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null; 
+	}
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mapper namespace="com.ssafy.mvc.model.mapper.UserMapper">
+
+	<select id="select" parameterType="map" resultType="boo">
+		select 
+		from user where 
+	</select>
+
+</mapper>

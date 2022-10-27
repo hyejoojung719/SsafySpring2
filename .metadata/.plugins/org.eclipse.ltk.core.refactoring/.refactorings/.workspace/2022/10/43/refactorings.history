@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Simple_MVC_1018&apos; to &apos;Simple_MVC_unused_mapperInterface_1018&apos;&#x0D;&#x0A;- Original element: &apos;Simple_MVC_1018&apos;&#x0D;&#x0A;- Renamed element: &apos;Simple_MVC_1018&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Simple_MVC_1018&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Simple_MVC_1018" name="Simple_MVC_unused_mapperInterface_1018" references="true" stamp="1666315137256" version="1.0"/>
+</session>

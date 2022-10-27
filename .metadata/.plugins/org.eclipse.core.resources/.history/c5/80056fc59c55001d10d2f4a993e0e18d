@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3> 회원 목록 </h3>
+	<!-- 여기서 list, join, view, modify, delete 모두 처리 -->
+	<!--  	
+		list	/board/list?pgno=1.. GET => (최근) /board GET
+		join	/board/join POST(MemDTO) => 	/board POST
+		view	/board/view?articelno=151 GET => 	/board/151 GET
+		modify	/board/modify POST(MemDTO) =>	/board PUT (list,join이랑 겹치지만)
+		delete	/board/delete?articleno=151 GET => 	/board/151 DELETE
+	 -->
+</body>
+</html>

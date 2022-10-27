@@ -1,0 +1,6 @@
+package com.ssafy.member.model.mapper;
+
+@Mapper
+public interface MemberMapper {
+
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mapper namespace="com.ssafy.mvc.model.mapper.BookMapper">
+
+	<select id="select" resultType="book">
+		select isbn, title, author, price 
+		from book
+	</select>
+
+</mapper>

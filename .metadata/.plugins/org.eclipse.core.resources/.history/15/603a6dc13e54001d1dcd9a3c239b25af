@@ -1,0 +1,11 @@
+package com.ssafy.car.model.service;
+
+import org.springframework.stereotype.Service;
+
+import com.ssafy.car.model.CarDto;
+
+@Service
+public class CarServiceImpl implements CarService{
+	
+
+}

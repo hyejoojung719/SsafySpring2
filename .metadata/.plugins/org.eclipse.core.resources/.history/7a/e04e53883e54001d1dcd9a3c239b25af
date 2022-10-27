@@ -1,0 +1,13 @@
+package com.ssafy.car.model.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class CarServiceImpl implements CarService{
+
+	// 차 등록
+	
+	// 차 목록 불러오기
+	
+	// 차 상세 
+}

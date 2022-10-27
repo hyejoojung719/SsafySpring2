@@ -1,0 +1,30 @@
+package com.ssafy.car.model.service;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.ssafy.car.model.CarDto;
+import com.ssafy.car.model.mapper.CarMapper;
+import com.ssafy.member.model.mapper.MemberMapper;
+
+@Service
+public class CarServiceImpl implements CarService{
+
+	@Autowired
+	MemberMapper memberMapper;
+	
+	@Override
+	public void regist(CarDto car) throws Exception {
+		CarMapper.
+	}
+
+	@Override
+	public List<CarDto> selectAll() throws SQLException {
+		return car;
+	}
+	
+
+}

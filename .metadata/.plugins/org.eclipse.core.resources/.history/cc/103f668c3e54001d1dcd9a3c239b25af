@@ -1,0 +1,16 @@
+package com.ssafy.car.model.service;
+
+import org.springframework.stereotype.Service;
+
+import com.ssafy.board.model.BoardDto;
+
+@Service
+public class CarServiceImpl implements CarService{
+
+	// 차 등록
+	void writeArticle(BoardDto boardDto) throws Exception;
+	
+	// 차 목록 불러오기
+	
+	// 차 상세 
+}

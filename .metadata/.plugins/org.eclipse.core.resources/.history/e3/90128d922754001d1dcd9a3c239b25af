@@ -1,0 +1,5 @@
+package com.ssafy.car.aop;
+
+public class LoggingAspect {
+
+}

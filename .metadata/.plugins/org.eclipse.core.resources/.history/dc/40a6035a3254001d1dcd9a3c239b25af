@@ -1,0 +1,11 @@
+package com.ssafy.member.model.service;
+
+import java.sql.SQLException;
+
+import com.ssafy.member.model.MemberDto;
+
+public interface MemberService {
+
+	void join(MemberDto member) throws SQLException;
+	
+}

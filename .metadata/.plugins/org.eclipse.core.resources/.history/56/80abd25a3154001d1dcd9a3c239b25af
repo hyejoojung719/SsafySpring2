@@ -1,0 +1,10 @@
+package com.ssafy.member.model.mapper;
+
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface MemberMapper {
+
+	// 회원 가입
+	void 
+}

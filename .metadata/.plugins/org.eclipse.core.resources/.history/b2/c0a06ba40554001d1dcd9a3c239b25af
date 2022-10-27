@@ -1,0 +1,26 @@
+package com.ssafy.webex;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.ssafy.webex.model.mapper.WorldMapper;
+
+@Controller
+public class TestController {
+	
+	@Autowired
+	WorldMapper worldMapper;
+	
+	@GetMapping("/")
+	public String test() {
+		
+		City city = new City();
+        city.setName("도시");
+        city.setCountryCode("KOR");
+        city.setDistrict("도시");
+        city.setPopulation(3000);
+		
+		return null;
+	}
+}

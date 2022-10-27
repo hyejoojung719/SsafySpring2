@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;HomeController.java&apos; to &apos;CarProject_1025/src/main/java/com.ssafy.mvc.controller&apos;&#x0D;&#x0A;- Original project: &apos;CarProject_1025&apos;&#x0D;&#x0A;- Destination element: &apos;CarProject_1025/src/main/java/com.ssafy.mvc.controller&apos;&#x0D;&#x0A;- Original element: &apos;com.ssafy.mvc.HomeController.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ssafy.mvc.controller" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ssafy.mvc{HomeController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1666675542439" units="1" version="1.0"/>
+</session>

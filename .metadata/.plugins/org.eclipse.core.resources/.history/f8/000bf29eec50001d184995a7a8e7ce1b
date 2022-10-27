@@ -1,0 +1,9 @@
+package com.ssafy.mvc.model.service;
+
+import java.sql.SQLException;
+
+public class UserServiceImpl {
+
+	selecUser() throws SQLException;
+	
+}
