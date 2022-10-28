@@ -1,9 +1,0 @@
-package com.ssafy.mvc.dto;
-
-public class FileInfo {
-
-	private String isbn;
-	private String saveFolder;
-	private String saveFile;
-	private String originFile;
-}

@@ -1,8 +1,0 @@
-package com.ssafy.admin.controller;
-
-import org.springframework.stereotype.Controller;
-
-@Controller("/adming")
-public class AdminUserController {
-
-}

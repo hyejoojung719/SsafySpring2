@@ -152,8 +152,8 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\SSAFY\Desktop\spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\SSAFY\Desktop\spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\board5_restapi_practice" path="/board" reloadable="true" source="org.eclipse.jst.jee.server:board5_restapi_practice">
-	<Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxIdle="30" maxTotal="100" maxWaitMillis="10000" name="jdbc/ssafy" password="ssafy" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/ssafyweb?serverTimezone=UTC&amp;useUniCode=yes&amp;characterEncoding=UTF-8" username="ssafy"/> 
+      <Context docBase="C:\Users\SSAFY\Desktop\SsafySpring2\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\SSAFY\Desktop\SsafySpring2\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Simple_REST_book" path="/rest" reloadable="true" source="org.eclipse.jst.jee.server:Simple_REST_book">
+	<Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxIdle="30" maxTotal="100" maxWaitMillis="10000" name="jdbc/ssafy" password="ssafy" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/bookdb?serverTimezone=UTC&amp;useUniCode=yes&amp;characterEncoding=UTF-8" username="ssafy"/> 
     <WatchedResource>WEB-INF/web.xml</WatchedResource>
 </Context></Host>
     </Engine>

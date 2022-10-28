@@ -1,9 +1,0 @@
-package com.ssafy.mvc.model.mapper;
-
-import java.sql.SQLException;
-
-public interface UserMapper {
-
-	boolean selectUser() throws SQLException;
-	
-}
