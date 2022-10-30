@@ -38,7 +38,7 @@ public class BoardDaoImpl implements BoardDao {
 	}
 
 	@Override
-	public int getTotalArticleCount(Map<String, String> map) throws SQLException {
+	public int getTotalArticleCount(Map<String, Object> map) throws SQLException {
 		try (SqlSession sqlSession = SqlMapConfig.getSqlSession()) {
 			return sqlSession.selectOne(NAMESPACE + "getTotalArticleCount", map);
 		}
