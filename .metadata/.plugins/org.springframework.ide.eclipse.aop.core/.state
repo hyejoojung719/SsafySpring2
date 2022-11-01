@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="springboot1101"/>
 <aop-project name="HelloSpringBoot"/>
+<aop-project name="board4_mybatis_spring1"/>
 <aop-project name="board6_springboot"/>
+<aop-project name="board5_restapi_practice"/>
 </aop-reference-model>
