@@ -1,21 +1,5 @@
 INDEX VERSION 1.4+C:\Users\fixup\Desktop\SsafySpring2\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-3186871869.index
-1778756940.index
-3086432358.index
-566178912.index
-3020536594.index
-2862012975.index
-1863673548.index
-1193298994.index
-1458794210.index
-4293909320.index
-1248914126.index
-1693406556.index
-2738008934.index
-3996333626.index
-2255457663.index
-2548463154.index
-497621264.index
-3098961370.index
-11039846.index
 839654099.index
+3020536594.index
+3186871869.index
+1863673548.index

@@ -16,7 +16,7 @@
             </Realm>
             <Host appBase="webapps" autoDeploy="true" deployOnStartup="true" deployXML="true" name="localhost" unpackWARs="true">
                 <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
-            <Context docBase="Simple_MVC_used_mapperInterface_1019" path="/board" reloadable="true" source="org.eclipse.jst.jee.server:Simple_MVC_used_mapperInterface_1019"/><Context docBase="board3_mybatis" path="/board" reloadable="true" source="org.eclipse.jst.jee.server:board3_mybatis"/><Context docBase="board4_mybatis_spring1" path="/board" reloadable="true" source="org.eclipse.jst.jee.server:board4_mybatis_spring1"/></Host>
+            <Context docBase="Simple_MVC_used_mapperInterface_1019" path="/board" reloadable="true" source="org.eclipse.jst.jee.server:Simple_MVC_used_mapperInterface_1019"/><Context docBase="board3_mybatis" path="/board" reloadable="true" source="org.eclipse.jst.jee.server:board3_mybatis"/><Context docBase="board4_mybatis_spring1" path="/board" reloadable="true" source="org.eclipse.jst.jee.server:board4_mybatis_spring1"/><Context docBase="board5_restapi_practice" path="/board" reloadable="true" source="org.eclipse.jst.jee.server:board5_restapi_practice"/></Host>
         </Engine>
         <Connector acceptCount="100" connectionTimeout="20000" executor="tomcatThreadPool" maxKeepAliveRequests="15" port="${nio.http.port}" protocol="org.apache.coyote.http11.Http11NioProtocol" redirectPort="${nio.https.port}"/>
     </Service>
