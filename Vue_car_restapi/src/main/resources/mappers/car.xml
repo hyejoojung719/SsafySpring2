@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.webex.model.mapper.CarMapper">
+
+	<insert id="insert" parameterType="Car">
+	insert into car (number, model, price, brand)
+	values (#{number}, #{model}, #{price}, #{brand})
+	</insert>
+
+
+	<select id="search" resultType="Car">
+		select number, model, price, brand
+		from car
+	</select>
+	
+	<select id="select" parameterType="string" resultType="Car">
+	select number, model, price, brand
+	from car
+	where number=#{number}
+	</select>
+	
+	<update id="update" parameterType="Car">
+	update car
+	set model=#{model}, price=#{price}, brand=#{brand}
+	where number=#{number}
+	</update>
+	
+	<delete id="delete" parameterType="string">
+		delete from car 
+		where number=#{number}
+	</delete>
+	
+</mapper>
