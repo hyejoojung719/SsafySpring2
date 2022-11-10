@@ -1,13 +1,10 @@
-<<<<<<< HEAD
 INDEX VERSION 1.4+C:\Users\SSAFY\Desktop\SsafySpring2\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1193298994.index
 3098961370.index
-4293909320.index
+1193298994.index
 2461628237.index
-=======
-INDEX VERSION 1.4+C:\Users\fixup\Desktop\SsafySpring2\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-839654099.index
-3020536594.index
-3186871869.index
-1863673548.index
->>>>>>> f56419e8693de0e2d3048aa30bdcb296ae349b39
+2913147445.index
+98336002.index
+2002146473.index
+2035299065.index
+4293909320.index
+1299056188.index
